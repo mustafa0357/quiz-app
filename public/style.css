@@ -1,0 +1,52 @@
+
+body{
+    background-color: aqua;
+    background-image: url(./dark-blue-.jpg);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+background-size: cover;
+}
+
+.quiz-container{
+    background-color:whitesmoke;
+    height: 48vh;
+    width: 45%;
+    margin-top: 10%;
+    justify-content: center;
+    border-radius: 20px;
+    
+}
+#question{
+    font-size: 34px;
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem;
+    text-align: center;
+}
+ul{
+   list-style-type: none
+}
+ul li{
+    font-size: 1.2rem;
+}
+ul li label{
+    cursor: pointer;
+}
+
+button{
+    width:100%
+     ;
+     background-color:  #03cae4;
+     display: block;
+     border: none;
+     cursor: pointer;
+     font-size: 1.1rem;
+     padding: 1.3rem;
+     margin-top: 5%;
+     border-radius: 0 0 20px 20px;
+}
+button:hover{
+
+    background-color: #04adc4;
+}
